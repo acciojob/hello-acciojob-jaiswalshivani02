@@ -1,2 +1,20 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the main element with class 'accio' and ID 'job' */
+.accio {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+/* Apply styles to the p element with class 'hello-accio' */
+.hello-accio {
+    color: white;
+    margin-left: 32px;
+    padding: 10px;
+}
